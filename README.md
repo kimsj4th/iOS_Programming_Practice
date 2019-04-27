@@ -11,9 +11,14 @@ Day04: 스토리보드를 이용하여 오브젝트 연습하기
 Day05: 테이블 뷰  
 Day06: 콜렉션 뷰  
 Day07: 커스텀 UI / 커스텀 클래스  
-Day08: 라이브러리 
+Day08: 코코아팟 라이브러리
+Day09: 네트워크 / Working with Web 
+Day10: Firebase 
+Day11: Graphics
+Day12: SpriteKit
+Day13: Saving Data 
 
--
+--- 
 
 
 

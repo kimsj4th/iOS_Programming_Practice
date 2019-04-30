@@ -9,20 +9,20 @@
  Day05: 테이블 뷰  
  Day06: 콜렉션 뷰  
  Day07: 커스텀 클래스**  
-		- Custom Button  
-		- Custom UI  
+- Custom Button  
+- Custom UI  
 **Day08: 코코아팟 라이브러리**  
 **Day09: 네트워크 / Working with Web**  
 **Day10: 개별 기능**  
-  	 	- 햄버그 메뉴   
- 	 	- 사이즈 클래스   
-    	- 키보드 컨트롤   
-    	- 제스쳐   
+- 햄버그 메뉴   
+- 사이즈 클래스   
+- 키보드 컨트롤   
+- 제스쳐   
 **Day11: Firebase**  
-  		- 회원가입(Sign Up)   
+- 회원가입(Sign Up)   
  **Day12: Graphics  & Draw**  
  **Day13: SpriteKit**  
-	- ArcheryGame   
+- ArcheryGame   
  **Day14: Saving Data**
   
 --- 

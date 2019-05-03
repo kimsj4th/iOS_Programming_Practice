@@ -30,27 +30,37 @@
 
 
 
+  
+Day03: Programatic View Practice   
+-
+___MyItem___
 
-#### Day03: Programativ View Practice   
-_MyItem_
+<img width="662" alt="iOS_03_OOP_Basic" src="https://user-images.githubusercontent.com/47228549/57127261-c821f200-6dca-11e9-8dcc-490a46ce47bb.png">
 
 
 
-#### Day07: Custom Class  
-_Custom Button_
-
+Day07: Custom Class 
+- 
+___Custom Button___
 
 
 <img width="454" alt="iOS_07_01_CustomButton" src="https://user-images.githubusercontent.com/47228549/57120497-d5c87f00-6dac-11e9-8d6f-8facc2af5170.png">
 
-generateRandomColor()  
-alphaValueDecrease(_:)  
-shake()   
-pulsate()  
-flash() 
-
+	generateRandomColor()  
+	alphaValueDecrease(_:)  
+	shake()   
+	pulsate()  
+	flash()  
 참고: Swift 실전편, 이재은  
 Sean Allen(YouTube channel)
+
+
+___Custom UI___
+
+<img width="368" alt="iOS_07_02_CustomUI" src="https://user-images.githubusercontent.com/47228549/57126549-44670600-6dc8-11e9-8bb8-b3c671f4c021.png">  
+
+	Custom Class: CustomStepper, CustomButton, CustomAlertViewController, CustomTabBarController  
+참고: Swift 실전편, 이재은
 
 
 #### Day14: SpriteKit 
@@ -59,6 +69,7 @@ Archery Game
 
 참고: iOS 9 프로그래밍, 닐 스미스 
 
+-
 
 
 

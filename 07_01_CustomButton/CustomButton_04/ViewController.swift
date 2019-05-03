@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         flashButton.flash()
     }
     
-    func setCustomActinButton() {
+    func setCustomActionButton() {
         for button in [shakingButton,pulseButton,flashButton] {
             button.setUpButton()
             button.setShadow()
@@ -89,8 +89,8 @@ class ViewController: UIViewController {
         
         addButton(shakingButton, at: CGRect(x: view.center.x - 125, y: 460, width: 250, height: 60), title: "shaking")
         addButton(pulseButton, at: CGRect(x: view.center.x - 125, y: 550, width: 250, height: 60), title: "pulse")
-        addButton(flashButton, at: CGRect(x: view.center.x - 125, y: 630, width: 250, height: 60), title: "plash")
-        setCustomActinButton()
+        addButton(flashButton, at: CGRect(x: view.center.x - 125, y: 630, width: 250, height: 60), title: "flash")
+        setCustomActionButton()
     }
     
     func addButton(_ button: CustomButton, at location: CGRect, title: String) {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A53AEEA6227C2A70005C6429 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AEEA5227C2A70005C6429 /* CustomTabBarController.swift */; };
+		A53AEEA8227C2D9F005C6429 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AEEA7227C2D9F005C6429 /* CustomButton.swift */; };
 		A56A958522740ABC00FF4218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A958422740ABC00FF4218 /* AppDelegate.swift */; };
 		A56A958722740ABC00FF4218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A958622740ABC00FF4218 /* ViewController.swift */; };
 		A56A958A22740ABC00FF4218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56A958822740ABC00FF4218 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A53AEEA5227C2A70005C6429 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		A53AEEA7227C2D9F005C6429 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		A56A958122740ABC00FF4218 /* CustomUI_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUI_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56A958422740ABC00FF4218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A56A958622740ABC00FF4218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +65,9 @@
 				A56A958422740ABC00FF4218 /* AppDelegate.swift */,
 				A56A958622740ABC00FF4218 /* ViewController.swift */,
 				A56A959622740AEE00FF4218 /* CustomStepper.swift */,
+				A53AEEA7227C2D9F005C6429 /* CustomButton.swift */,
 				A56A959822740CE900FF4218 /* CustomAlertViewController.swift */,
+				A53AEEA5227C2A70005C6429 /* CustomTabBarController.swift */,
 				A56A958822740ABC00FF4218 /* Main.storyboard */,
 				A56A958B22740ABD00FF4218 /* Assets.xcassets */,
 				A56A958D22740ABD00FF4218 /* LaunchScreen.storyboard */,
@@ -143,6 +149,8 @@
 			files = (
 				A56A959922740CE900FF4218 /* CustomAlertViewController.swift in Sources */,
 				A56A958722740ABC00FF4218 /* ViewController.swift in Sources */,
+				A53AEEA8227C2D9F005C6429 /* CustomButton.swift in Sources */,
+				A53AEEA6227C2A70005C6429 /* CustomTabBarController.swift in Sources */,
 				A56A958522740ABC00FF4218 /* AppDelegate.swift in Sources */,
 				A56A959722740AEE00FF4218 /* CustomStepper.swift in Sources */,
 			);

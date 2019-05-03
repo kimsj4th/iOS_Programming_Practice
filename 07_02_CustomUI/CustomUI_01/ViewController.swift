@@ -11,11 +11,17 @@ import UIKit
 class ViewController: UIViewController {
    
     let stepper = CustomStepper()
+    let shakingButton = CustomButton(type: .system)
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setNavigationBar()
-
+        setInitView()
+    }
+    
+    func setInitView() {
+        
         // Stepper
         stepper.frame = CGRect(x: 50, y: 100, width: 200, height: 50)
         stepper.center.x = self.view.frame.width / 2
@@ -26,8 +32,21 @@ class ViewController: UIViewController {
         imageAlertButton.frame = CGRect(x: 0, y: 400, width: 100, height: 50)
         imageAlertButton.center.x = self.view.frame.width / 2
         imageAlertButton.setTitle("Image Alert", for: .normal)
+        imageAlertButton.tintColor = UIColor.purple
+        imageAlertButton.backgroundColor = UIColor(red: 0.94, green: 0.96, blue: 1.0, alpha: 1.0)
         imageAlertButton.addTarget(self, action: #selector(imageAlert(_:)), for: .touchUpInside)
         self.view.addSubview(imageAlertButton)
+        
+        // Custom Button
+        shakingButton.frame = CGRect(x: 0, y: 600, width: 250, height: 60)
+        shakingButton.center.x = self.view.frame.width / 2
+        shakingButton.setTitle("Shaking Button", for: .normal)
+        shakingButton.setUpButton()
+        shakingButton.setShadow()
+        shakingButton.titleLabel?.font = UIFont(name: "GillSans-UltraBold",
+                                                size: UIFont.systemFontSize + 10)
+        shakingButton.addTarget(self, action: #selector(shaking), for: .touchUpInside)
+        view.addSubview(shakingButton)
         
         
     }
@@ -100,6 +119,10 @@ class ViewController: UIViewController {
         }
     }
     
+    // 커스텀 버튼 메소드
+    @objc func shaking() {
+        shakingButton.shake()
+    }
         
 }
 

@@ -31,12 +31,12 @@
 
 
 
-####Day03: Programativ View Practice 
+#### Day03: Programativ View Practice   
 _MyItem_
 
 
 
-####Day07: Custom Class
+#### Day07: Custom Class  
 _Custom Button_
 
 
@@ -53,7 +53,7 @@ flash()
 Sean Allen(YouTube channel)
 
 
-####Day14: SpriteKit 
+#### Day14: SpriteKit 
 Archery Game
 
 

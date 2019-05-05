@@ -71,14 +71,20 @@ _Sing up_
             let email = emailTextField.text,
             let password = passwordTextField.text,
             let name = nameTextField.text else { return }
+        
         Auth.auth().createUser(withEmail: email, password: password) { (authDataResult, error) in
+            
             if error == nil {
                 guard let user = authDataResult?.user else { return }
                 let uid = user.uid
+                
                 let image = self.imageView.image
-                let imageData = image?.jpegData(compressionQuality: 0.1)  
+                let imageData = image?.jpegData(compressionQuality: 0.1)
+                
                 Storage.storage().reference().child("userImages").child(uid).putData(imageData!, metadata: nil, completion: { (storageMetaData, error) in
-                    Storage.storage().reference().child("userImages").child(uid).downloadURL(completion: { (url, error) in             
+                    
+                        Storage.storage().reference().child("userImages").child(uid).downloadURL(completion: { (url, error) in
+                            
                             let imageURL = url?.absoluteString
                         Database.database().reference().child("users").child(uid).setValue(["userName": name, "profileImageURL": imageURL])
                     })

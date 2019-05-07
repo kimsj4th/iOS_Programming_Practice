@@ -7,7 +7,7 @@
 **Day04: 스토리보드를 이용하여 오브젝트 연습하기**  
 **Day05: 테이블 뷰**  
 	- Homepwner   
-	- BirttdayTracker	  
+	- BirthdayTracker	  
 **Day06: 콜렉션 뷰, 스크롤 뷰   
  Day07: 커스텀 클래스**  
 	- Custom Button  
@@ -57,13 +57,13 @@ _Custom UI_
 
 <img width="368" alt="iOS_07_02_CustomUI" src="https://user-images.githubusercontent.com/47228549/57126549-44670600-6dc8-11e9-8bb8-b3c671f4c021.png">  
 
-	Custom Class: 
-	CustomStepper, CustomButton, CustomAlertViewController, CustomTabBarController  
+Custom Class:  
+`CustomStepper`,`CustomButton`,`CustomAlertViewController`, `CustomTabBarController`  
 참고: Swift 실전편, 이재은, 루비페이퍼  
 
 
 #### Day09: Firebase 
-_Sing up_
+_Sign up_
 
 ```swift
 @objc func signUpEvent() {
